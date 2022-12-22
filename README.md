@@ -21,3 +21,4 @@ local_dlclose(handle);
 ## 感谢
 
 - [Nougat_dlfunctions](https://github.com/avs333/Nougat_dlfunctions)
+- [dlfcn_compat](https://github.com/lizhangqu/dlfcn_compat)
