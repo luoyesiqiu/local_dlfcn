@@ -19,6 +19,8 @@ extern "C" {
 #endif
 
 struct local_dlfcn_handle{
+    char *elf;
+    size_t size;
     char *dynsym;
     int nsyms;
     char *dynstr;
