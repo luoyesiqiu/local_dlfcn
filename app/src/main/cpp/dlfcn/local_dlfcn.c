@@ -56,7 +56,7 @@ void *local_dlopen(const char* lib_path){
                 }
                 memcpy(handle->dynsym, ((char *) elf) + sh->sh_offset, sh->sh_size);
                 handle->nsyms = (sh->sh_size / sizeof(Elf_Sym));
-                LOGD("%s SHT_DYNSYM,shndx = %d",__func__);
+                LOGD("%s SHT_DYNSYM,shndx",__func__);
                 break;
 
             case SHT_STRTAB:
